@@ -1,0 +1,18 @@
+services:
+  app:
+    build: .
+    container_name: tiktoc_middlelog
+    ports:
+      - '6060:3000'
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - GMAIL_USER=${GMAIL_USER}
+      - GMAIL_PASS=${GMAIL_PASS}
+      - GREEN_API_INSTANCE_ID=${GREEN_API_INSTANCE_ID}
+      - GREEN_API_TOKEN=${GREEN_API_TOKEN}
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm start
+    restart: always
