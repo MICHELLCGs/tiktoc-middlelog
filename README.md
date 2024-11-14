@@ -5,7 +5,7 @@ Esta API proporciona funcionalidades de OTP (One Time Password) y alertas para g
 ## Tabla de Contenidos
 
 -   [Instalación](#instalaci%C3%B3n-desarrollo)
--   [Instalación](#instalaci%C3%B3n-con-docker)
+-   [Instalación](#despliegue-con-docker)
 -   [Configuración](#configuraci%C3%B3n)
 -   [Rutas de la API](#rutas-de-la-api)
     -   [OTP Email](#otp-email)
