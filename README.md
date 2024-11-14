@@ -53,7 +53,7 @@ GMAIL_PASS=  "Crea una 'Contraseñas de aplicación'"
 GREEN_API_URL= "GEEN API: apiUrl"
 GREEN_API_INSTANCE_ID= "GREEN API"
 GREEN_API_TOKEN= "GREEN API"
-PORT=3000` 
+PORT=3000
 ```
 Para obtener el `GMAIL_PASS`, utiliza una contraseña de aplicación generada en tu cuenta de Google, ponerle cualquier nombre. 
 Configura también tus credenciales de Green API.
@@ -81,7 +81,7 @@ Content-Type: application/json
 {
     "recipient": "usuario@ejemplo.com",
     "code": "123456"
-}` 
+}
 ```
 **Ejemplo de respuesta exitosa:**
 
@@ -150,10 +150,10 @@ Content-Type: application/json
 **Ejemplo de respuesta exitosa:**
 
 ```json
-`{
+{
     "status": "Log sent to WhatsApp group",
     "groupId": "1234567890@g.us"
-}` 
+}
 ```
 ----------
 
